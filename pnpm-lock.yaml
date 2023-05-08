@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      hello: '@rascode/workspace:*'
+      world: '@rascode/workspace:*'
+    dependencies:
+      hello: link:@rascode/workspace:*
+      world: link:@rascode/workspace:*
+
+  projects/hello:
+    specifiers:
+      dotenv: ^16.0.3
+    devDependencies:
+      dotenv: 16.0.3
+
+  projects/world:
+    specifiers: {}
+
+packages:
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: true

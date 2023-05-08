@@ -1,0 +1,15 @@
+{
+  "name": "pnpm-monorepo",
+  "version": "1.0.0",
+  "description": "Demo PNPM Monorepo",
+  "keywords": [],
+  "author": "rascode",
+  "license": "ISC",
+  "dependencies": {
+    "hello": "@rascode/workspace:*",
+    "world": "@rascode/workspace:*"
+  },
+  "node": ">=10",
+  "pnpm": ">=3",
+  "type": "module"
+}
