@@ -1,5 +1,3 @@
 packages:
-  # all apps in direct subdirs of apps/
   - "apps/*"
-  # all packages in direct subdirs of packages/
   - "packages/*"
