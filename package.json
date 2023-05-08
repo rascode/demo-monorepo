@@ -11,5 +11,8 @@
   },
   "node": ">=10",
   "pnpm": ">=3",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nx": "^16.1.3"
+  }
 }

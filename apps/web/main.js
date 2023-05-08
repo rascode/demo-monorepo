@@ -1,7 +1,5 @@
-import hello from "@rascode/hello";
-import world from "@rascode/world";
+import { hello } from "@rascode/hello";
+import { world } from "@rascode/world";
 
-const hellothere = hello()
-const worldy = world()
 
-console.log(hellothere + " " + worldy)
+console.log(`From @rascode to @dev: ${hello()} ${world()}`)
