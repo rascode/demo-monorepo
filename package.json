@@ -6,8 +6,8 @@
   "author": "rascode",
   "license": "ISC",
   "dependencies": {
-    "@rascode/hello": "workspace:*",
-    "@rascode/world": "workspace:*"
+    "hello": "workspace:*",
+    "world": "workspace:*"
   },
   "node": ">=10",
   "pnpm": ">=3",

@@ -1,5 +1,5 @@
-import { hello } from "@rascode/hello";
-import { world } from "@rascode/world";
+import { hello } from "hello";
+import { world } from "world";
 
 
 console.log(`From @rascode to @dev: ${hello()} ${world()}`)

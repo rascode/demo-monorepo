@@ -1,5 +1,5 @@
 {
-  "name": "@rascode/world",
+  "name": "world",
   "version": "1.0.0",
   "description": "The World Card",
   "main": "index.js",
